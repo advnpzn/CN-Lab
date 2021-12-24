@@ -81,3 +81,29 @@ Non-authoritative answer:
 Name:    github.com
 Address:  13.234.176.102
 ```
+
+## `tracaert`
++ Traceroute uses Internet Control Message Protocol (ICMP) echo packets with variable time to live 
+(TTL) values. The response time of each hop is calculated. To guarantee accuracy, each hop is queried 
+multiple times (usually three times) to better measure the response of that particular hop.
+Traceroute is a network diagnostic tool used to track the pathway taken by a packet on an IP network 
+from source to destination. Traceroute also records the time taken for each hop the packet makes 
+during its route to the destination. Traceroute uses Internet Control Message Protocol (ICMP) echo 
+packets with variable time to live (TTL) values
+
+```
+tracert google.com
+
+Tracing route to google.com [216.58.196.78]
+over a maximum of 30 hops:
+
+  1    29 ms    29 ms    28 ms  172.16.0.1
+  2     *        *        *     Request timed out.
+  3    31 ms    30 ms    29 ms  172.70.216.2
+  4    31 ms    31 ms    31 ms  142.250.166.162
+  5    42 ms    34 ms    32 ms  72.14.238.215
+  6    30 ms    31 ms    32 ms  209.85.255.209
+  7    30 ms    29 ms    29 ms  kul01s09-in-f78.1e100.net [216.58.196.78]
+
+Trace complete.
+```
