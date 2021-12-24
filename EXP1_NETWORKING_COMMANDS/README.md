@@ -82,7 +82,7 @@ Name:    github.com
 Address:  13.234.176.102
 ```
 
-## `tracaert`
+## `tracert`
 + Traceroute uses Internet Control Message Protocol (ICMP) echo packets with variable time to live 
 (TTL) values. The response time of each hop is calculated. To guarantee accuracy, each hop is queried 
 multiple times (usually three times) to better measure the response of that particular hop.
