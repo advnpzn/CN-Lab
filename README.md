@@ -3,7 +3,7 @@ Computer Networks Programs for my Laboratory Record
 
 | S.No | Title | Status |
 | --- | --- | --- |
-| 1 | Networking Commands | ✔️ |
+| 1 | [Networking Commands](https://github.com/notPlasticCat/CN-Lab/tree/main/EXP1_NETWORKING_COMMANDS) | ✔️ |
 | 2 | [Write an HTTP Client to download from Web using TCP Sockets](https://github.com/notPlasticCat/CN-Lab/tree/main/EXP2) | ✔️ |
 |3.a| Socket Program for ECHO | ❌ |
 |3.b| Client-Server Application for Chat | ❌ |
