@@ -19,6 +19,7 @@ In the above code, you could specify the name of your image file with the extent
 
 + If you get any `PORT ` error or is unavailable, then you could actually use a different `PORT`. 
 + Editing the `PORT` number in the following code snippet in both the `Client.java` and `Server.java` will do the trick.
+  
 + For `Client.java`
 ```java
 client = new Socket("localhost", 4000);
