@@ -19,7 +19,7 @@ public class Client
             socket = new Socket("localhost", 4000);
         } catch (Exception e)
         {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
 
         try
