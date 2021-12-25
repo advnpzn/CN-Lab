@@ -6,7 +6,7 @@ import java.io.DataOutputStream;
 import java.io.File;
 import java.io.OutputStream;
 
-public class socket 
+public class Client 
 {
 
     public static void main(String[] args) throws Exception 
