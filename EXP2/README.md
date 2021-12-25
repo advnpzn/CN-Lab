@@ -22,7 +22,7 @@ In the above code, you could specify the name of your image file with the extent
   
 + For `Client.java`
 ```java
-client = new Socket("localhost", 4000);
+socket = new Socket("localhost", 4000);
 ```
 + For `Server.java`
 ```java
