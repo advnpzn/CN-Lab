@@ -6,17 +6,17 @@ import java.io.DataOutputStream;
 import java.io.File;
 import java.io.OutputStream;
 
-public class Client 
+public class socket 
 {
 
     public static void main(String[] args) throws Exception 
     {
         
         BufferedImage img = null;
-        Socket client = null;
+        Socket socket = null;
         try
         {
-            client = new Socket("localhost", 4000);
+            socket = new Socket("localhost", 4000);
         } catch (Exception e)
         {
             System.out.println(e);
@@ -32,7 +32,7 @@ public class Client
             byte[] bytes = baos.toByteArray();
             baos.close();
             System.out.println("Sending Image to Server...");
-            OutputStream out = client.getOutputStream();
+            OutputStream out = socket.getOutputStream();
             DataOutputStream dos = new DataOutputStream(out);
             dos.writeInt(bytes.length);
             dos.write(bytes, 0, bytes.length);
@@ -42,9 +42,9 @@ public class Client
         } catch (Exception e)
         {
             System.out.println("Oopsie looks like something's wrong. Check this : "+e.getMessage());
-            client.close();
+            socket.close();
         }
-        client.close();
+        socket.close();
     }
 
 }
