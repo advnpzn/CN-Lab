@@ -1,5 +1,7 @@
 # CN-Lab
-Computer Networks Programs for my Laboratory Record
+Computer Networks Programs for my Laboratory Record.
+
+Note: I abandoned this, since my lab exams are over.
 
 | S.No | Title | Status |
 | --- | --- | --- |
